@@ -36,12 +36,13 @@ https.get(url, function(response){//this could have been a res
         res.send();
         console.log(desc);
         console.log(temp);
+      //this is just a test.
         const client1 = {
             accountId: "John",
             userId: "Ramen", 
             linkItemId: 12345
         }
-        console.log(JSON.stringify(client1)); //stringify packs things down.
+        console.log(JSON.stringify(client1)); //stringify packs things down. a test until this part.
     });
 });
 
